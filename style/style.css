@@ -1,0 +1,360 @@
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.content-header h1 {
+  font-family: "Exo 2";
+  font-size: 5.2rem;
+  font-weight: 600;
+  line-height: 6.5rem;
+  text-align: left;
+  color: #363738;
+  max-width: 61rem;
+  max-height: 11.9rem;
+}
+
+.content-header p {
+  max-width: 52.5rem;
+  max-height: 6.6rem;
+  font-family: "PT Sans";
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #6b6b6c;
+}
+
+.link {
+  font-family: "PT Sans";
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color: #363738;
+  text-decoration: none;
+  border-bottom: 3px solid #ffce50;
+  border-radius: 2px;
+}
+
+.image-header img {
+  max-width: 63.5rem;
+  max-height: 50.5rem;
+  width: 100%;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  column-gap: 4rem;
+}
+
+.header {
+  margin-top: 10rem;
+}
+
+.company {
+  max-width: 22.8rem;
+  max-height: 24.5rem;
+  margin-left: 8rem;
+  padding-bottom: 5.6rem;
+  padding-top: 4rem;
+}
+
+.company-name h2 {
+  max-width: 22.8rem;
+  max-height: 4.8rem;
+  font-family: "Exo 2";
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2.7rem;
+  text-align: left;
+}
+
+.company-name p {
+  max-width: 22.5rem;
+  max-height: 6.5rem;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #6b6b6c;
+}
+
+.section-types {
+  max-width: 124rem;
+  max-height: 34.1rem;
+  height: 100%;
+  border-radius: 2rem;
+  -webkit-box-shadow: 0px 3px 8px 5px rgba(0, 0, 0, 0.78);
+  -moz-box-shadow: 0px 3px 8px 5px rgba(0, 0, 0, 0.78);
+  box-shadow: 0px 3px 8px 5px rgba(0, 0, 0, 0.78);
+  margin-top: 6.7rem;
+  display: flex;
+}
+
+.delivery {
+  max-width: 22.8rem;
+  max-height: 24.5rem;
+  border-left: 3px solid #d7d7dd;
+  margin-left: 12.1rem;
+  padding-left: 6.4rem;
+  margin-top: 4rem;
+  margin-bottom: 5.6rem;
+}
+
+.robo {
+  max-width: 22.8rem;
+  max-height: 24.5rem;
+  border-left: 3px solid #d7d7dd;
+  margin-top: 4rem;
+  margin-bottom: 5.6rem;
+  margin-left: 10.5rem;
+  padding-left: 6.4rem;
+}
+
+.polygon {
+  background-image: url("../images/truck.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 124rem;
+  max-height: 38.3rem;
+}
+
+.polygon h2 {
+  max-width: 28.8rem;
+  max-height: 16.5rem;
+  font-family: "Exo 2";
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 55px;
+  text-align: left;
+  color: #fff;
+  padding: 11.2rem 35.6rem 10.6rem 8.5rem;
+}
+
+@media (max-width: 1200px) {
+  .content-header h1 {
+    font-family: "Exo 2";
+    font-size: 4.2rem;
+    font-weight: 600;
+    line-height: 5.5rem;
+    text-align: left;
+    color: #363738;
+    max-width: 61rem;
+    max-height: 11.9rem;
+  }
+  .content-header p {
+    max-width: 52.5rem;
+    max-height: 6.6rem;
+    font-family: "PT Sans";
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #6b6b6c;
+    margin-top: 1rem;
+  }
+  .robo {
+    max-width: 22.8rem;
+    max-height: 24.5rem;
+    border-left: 3px solid #d7d7dd;
+    margin-top: 3rem;
+    margin-bottom: 4.6rem;
+    margin-left: 9.5rem;
+    padding-left: 5.4rem;
+  }
+  .delivery {
+    max-width: 22.8rem;
+    max-height: 24.5rem;
+    border-left: 3px solid #d7d7dd;
+    margin-left: 11.1rem;
+    padding-left: 5.4rem;
+    margin-top: 3rem;
+    margin-bottom: 4.6rem;
+  }
+  .company {
+    max-width: 22.8rem;
+    max-height: 24 0.5rem;
+    margin-left: 7rem;
+    padding-bottom: 4.6rem;
+    padding-top: 3rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .content-header h1 {
+    font-family: "Exo 2";
+    font-size: 4.4rem;
+    font-weight: 600;
+    line-height: 5.5rem;
+    text-align: center;
+    color: #363738;
+    max-width: 69rem;
+    max-height: 5.4rem;
+  }
+  .header-nav {
+    flex-direction: column;
+  }
+  .content-header p {
+    max-width: 69rem;
+    max-height: 6.5rem;
+    color: #6b6b6c;
+    font-family: "PT Sans";
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #6b6b6c;
+    text-align: center;
+    margin-top: 4.9rem;
+  }
+  .link {
+    margin-left: 27rem;
+    margin: 0 a;
+  }
+  .image-header img {
+    max-width: 63.5rem;
+    max-height: 50.5rem;
+    width: 100%;
+    margin-top: 4rem;
+  }
+  .section-types {
+    flex-direction: column;
+  }
+  .company {
+    display: flex;
+    max-width: 69rem;
+    max-height: 16.4rem;
+    border-radius: 2rem;
+    -webkit-box-shadow: 0px 3px 8px 5px rgba(0, 0, 0, 0.78);
+    -moz-box-shadow: 0px 3px 8px 5px rgba(0, 0, 0, 0.78);
+    box-shadow: 0px 3px 8px 5px rgba(0, 0, 0, 0.78);
+    align-items: center;
+    column-gap: 3.2rem;
+  }
+  .company-name h2 {
+    max-width: 35.9rem;
+    max-height: 2.1rem;
+    font-family: "Exo 2";
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.7rem;
+    text-align: left;
+    color: #363738;
+  }
+  .company-name p {
+    max-width: 39.4rem;
+    max-height: 4.1rem;
+  }
+  .company-image {
+    margin-left: 3.2rem;
+  }
+  .robo {
+    padding: 0;
+    margin-top: 4rem;
+    margin-left: 7rem;
+    display: flex;
+    align-items: center;
+    max-width: 69rem;
+    max-height: 16.4rem;
+    border-radius: 2rem;
+    -webkit-box-shadow: 0px 3px 8px 5px rgba(0, 0, 0, 0.78);
+    -moz-box-shadow: 0px 3px 8px 5px rgba(0, 0, 0, 0.78);
+    box-shadow: 0px 3px 8px 5px rgba(0, 0, 0, 0.78);
+    column-gap: 3.2rem;
+    height: 100%;
+  }
+  .polygon {
+    background-image: url("../images/truck.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 124rem;
+    max-height: 38.3rem;
+    margin-top: 25rem;
+  }
+  .delivery {
+    padding: 0;
+    margin-top: 1rem;
+    margin-left: 7rem;
+    display: flex;
+    align-items: center;
+    max-width: 69rem;
+    max-height: 16.4rem;
+    border-radius: 2rem;
+    -webkit-box-shadow: 0px 3px 8px 5px rgba(0, 0, 0, 0.78);
+    -moz-box-shadow: 0px 3px 8px 5px rgba(0, 0, 0, 0.78);
+    box-shadow: 0px 3px 8px 5px rgba(0, 0, 0, 0.78);
+    column-gap: 3.2rem;
+    height: 100%;
+  }
+  .robo p {
+    max-width: 39.4rem;
+    max-height: 4.1rem;
+    padding-bottom: 4.7rem;
+  }
+  .robo h2 {
+    max-width: 35.9rem;
+    max-height: 2.1rem;
+    padding-top: 3.5rem;
+  }
+  .section-types {
+    box-shadow: none;
+    /* width: 0;
+    height: 0; */
+  }
+  .company-image img {
+    max-width: 9.2rem;
+    max-height: 9.2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .content-header h1 {
+    font-family: "Exo 2";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: left;
+    color: #363738;
+    max-width: 34.4rem;
+    max-height: 6.4rem;
+  }
+  .content-header p {
+    max-width: 34.4rem;
+    max-height: 6.2rem;
+    font-family: PT Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: left;
+    margin-bottom: 5rem;
+  }
+  .polygon {
+    opacity: 0;
+  }
+  .link {
+    margin-left: 0;
+    margin-top: 4rem;
+  }
+  .image-header img {
+    max-width: 34.5rem;
+    max-height: 25.3rem;
+    width: 100%;
+  }
+}
